@@ -1,0 +1,518 @@
+*{
+    padding: 0%;
+    margin: 0%;
+ box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+     position: fixed;
+     top: 0%; 
+     right: 0%;
+     left: 0%;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 90px;
+}
+.logo{
+    background-image: url(../images/logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+
+}
+
+.nav-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 55px;
+}
+.nav-address i {
+    color: white;
+}
+.address-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.address-text p {
+    color: white;
+}
+
+.address-text h6{
+    color: white;
+    font-size: .50rem;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+   
+}
+
+.search-select{
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-select:hover{
+    border: 2px solid  rgb(248, 169, 12); 
+
+}
+
+.nav-search input {
+    height: 35px;
+    width: 100%;
+    
+}
+
+ input:hover{
+    border: 2px solid  rgb(248, 169, 12); 
+
+}
+.nav-search i {
+    color: rgb(11, 11, 10);
+    width: 50px;
+    height: 35px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(248, 169, 12);
+}
+
+.nav-text2{
+    width: 131px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.nav-text2 .navp1 {
+    color: white;
+    font-size: 14px;
+}
+.nav-text2 .navp2 {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-return{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.returntext{
+    color: white;
+    font-size:.85rem;
+}
+
+.ordertext{
+    color: white;
+    font-size:.85rem;
+}
+
+.nav-cart{
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-cart i {
+    color: white;
+    font-size:1.25rem;
+}
+
+.nav-cart p {
+    
+    color: white;
+    font-weight: bold;
+    font-size: .85rem;
+}
+/* Pannel Css */
+
+.panel{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background-color: #053B50;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 60px;
+}
+
+.panel1{
+    width: 10%;
+   
+}
+.option{
+    width: 70%;
+}
+
+.option a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.panel3{
+    background-image: url(../images/prime.jpg);
+    width: 30%;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* contain css start here */
+
+.contain
+{
+    width: 100%;
+    height: 222px;
+    background-image: url(../images/contain.jpg);
+    background-size: cover;
+    margin-top: 80px;
+}
+/*  */
+
+.maincontain{
+    background-color: #50727B;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+
+.box
+{
+    width: 327px;
+    height: 400px;
+    background-color: white;
+   /* padding: 25px; */
+   /* border: 1px solid black; */
+}
+.box h2 {
+    text-align: center;
+}
+.boximages{
+    width: 300px;
+    height: 345px;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boximg{
+    width: 100px;
+    height: 116px;
+    /* border: 1px solid black; */
+    
+}
+
+.boximg1{
+    width: 100%;
+    height: 80px;  
+}
+
+.boximg1  img{
+    width: 100%;
+    height: 80px;
+    
+}
+
+.boximg1 p {
+    color: #35374B;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.box a 
+{
+    color: #0cc3c3;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+/* contain 2 css  */
+
+.contain2{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #50727B;
+}
+
+.maincard{
+    width: 97%;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px 15px;
+  
+}
+
+.cardtitle{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.cardtitle h4{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.cardtitle a {
+    text-decoration: none;
+    color: #053B50;
+    font-weight: bold;
+}
+.carddetails{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardimgdtls{
+    width: 150px;
+    height: 150px;
+    background-color: #DAD4B5;
+    display: flex;
+    justify-content: center;
+}
+.cardimgdtls1 img{
+    width: 150px;
+    height: 150px;
+    background-color: #DAD4B5;
+    display: flex;
+    justify-content: center;
+}
+
+.cardcombo{
+    width: 150px;
+    height: 185px;
+    
+}
+.cardimgdtls img{
+    width: 68px;
+    height: 140px;
+
+}
+
+.offer{
+width: 150px;
+height: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.offer1{
+    width: 70px;
+    font-size:10px;
+    background-color: #D80032;
+    text-align: center;
+    color: white;
+}
+
+.offer2
+{
+    font-size: 10px;
+    color: #D80032;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+.carddsc{
+    font-size: 10px;
+    color: #35374B;
+    font-weight: 700;
+}
+
+
+/* footer start here  */
+
+.footer1{
+    width: 100%;
+    height:400px;
+    background-color: #232F3E;
+}
+
+.fourfooter{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.getknowsection{
+    margin-top: 20px;
+}
+.getknowus
+{
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.getknowsection p {
+    margin-top: 5px;
+    color: white;
+    font-size: .86rem;
+    padding: 5px;
+}
+
+.getknowsection p i {
+    margin-right: 5px;
+}
+
+
+.globalinfo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.globalinfo img {
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+}
+.language{
+    width: 100px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language i {
+    color: whitesmoke;
+    margin-right: 5px;
+    font-size: .65rem;
+    text-align: center;
+}
+.globalinfo select {
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.country{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 80px;
+}
+.country a {
+    color: #50727B;
+    text-decoration: none;
+    margin-left: 7px;
+    padding: 5px;
+    font-size: .85rem;
+    /* position: fixed;3,5,9  unit 1,3,11,unit 5 =1,5,3*/
+}
+
+.country a:hover {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.footeradditional
+{   width: 100%;
+    height: 250px;
+    background-color: #131A22;
+    
+}
+
+.additional1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.additionalA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.additionalA  a{
+    text-decoration: none;
+    color: white;
+    opacity: .6;
+    margin-top: 5px;
+    text-align: center;
+    font-size: .65rem;
+}
+
+
+.additionalA  a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.copyrightsec{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.copy1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: .85rem;
+    letter-spacing: 2px;
+}
+
+.copy2 p {
+    color: white;
+    font-size: .85rem;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
